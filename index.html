@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         
+        <meta charset="UTF-8">
+        <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+        <title>Feedback app</title>
+        <link rel="stylesheet" href="style.css">
+        
+        <script src="https://kit.fontawesome.com/81a34a1870.js" crossorigin="anonymous"></script>
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Give Feedback</h1>
+            <p class="text">How would you rate our customer service experience?</p>
+            <div class="rating">
+            
+            <button class='feedback chosenOne' id="terrible" onclick="terrible()">
+                <i class="fa-regular fa-face-angry fa-2x "></i>
+                <p>Terrible</p>
+            </button>
+            <button class='feedback chosenTwo' id="bad"  onclick="bad()">
+                <i class="fa-regular fa-face-frown fa-2x "></i>
+                <p>Bad</p>
+            </button>
+            <button class='feedback chosenThree' id="okay"  onclick="okay()">
+                <i class="fa-regular fa-face-sad-tear fa-2x "></i>
+                <p>Okay</p>
+            </button>
+            <button  class='feedback chosenFour' id="good"  onclick="good()">
+                <i class="fa-regular fa-face-smile fa-2x "></i>
+                <p>Good</p>
+            </button>
+            <button class='feedback chosenFive' id="amazing"  onclick="amazing()">
+                <i class="fa-regular fa-face-grin-squint fa-2x "></i>
+                <p>Amazing</p>
+            </button>
+            </div>
+
+            <p class="text"> What are the main reasons for your rating?</p>
+            <input type="text" id="input">
+            <div class="submit">
+            <button id="submit">Submit</button>
+            </div>
+        </div>
+    </body>
+</html>

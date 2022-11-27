@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&family=Poppins:wght@400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    background-color: #fefae0;
+    color: #1c2541;
+    overflow: hidden;
+    align-self: center;
+   
+}
+
+.container{
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    width: 50em;
+    background-color: #faedcd;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    box-shadow:  1px 0.9px #1c2541;
+}
+
+h1{
+    font-size: 1.1rem;
+}
+
+.text{
+    font-size: 0.8rem;
+}
+
+p{
+    font-size: 1rem;
+}
+
+button{
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.9rem;
+    width: 6.3em;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#terrible{
+    background-color: #dc2f02 ;
+}
+
+#bad{
+    background-color: #e85d04 ;
+}
+
+#okay{
+    background-color: #f48c06 ;
+}
+
+#good{
+    background-color: #fcbf49 ;
+}
+
+#amazing{
+    background-color: #ffd000;
+}
+
+input{
+    width: 50%;
+    height: 7em;
+}
+
+.submit{
+    text-align: center;
+}
+
+#submit, #submit-btn{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    height: 3em;
+    width: 10em;
+    font-size: 1rem;
+    font-weight: bold;
+    padding-bottom: 0.5rem;
+    background-color:#fefae0;
+}
+
+.clicked{
+    box-shadow: 10px 10px 10px black;
+}
+
+.submit-text{
+    font-size: 2.5rem;
+}
+
+@media (max-width: 400px) {
+    body .container{
+    width: 50%;}
+}
